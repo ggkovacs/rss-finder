@@ -8,12 +8,6 @@ rssFinder(url).then((res) => {
     console.log('---------------------------------------------');
     console.log(res);
     console.log('---------------------------------------------');
-});
-
-const findRss = require('find-rss');
-
-findRss(url, (err, res) => {
-    console.log('---------------------------------------------');
-    console.log(res);
-    console.log('---------------------------------------------');
+}).catch((err) => {
+    console.log(err);
 });
