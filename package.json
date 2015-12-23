@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "gulp test"
+    "prepublish": "npm run test"
   },
   "repository": {
     "type": "git",
@@ -26,23 +26,15 @@
   "homepage": "https://github.com/ggkovacs/rss-finder",
   "dependencies": {
     "feedparser": "^1.1.4",
-    "got": "^5.2.1",
+    "got": "^5.3.0",
     "htmlparser2": "^3.9.0",
-    "promise": "^7.0.4",
-    "request": "^2.67.0"
+    "pinkie-promise": "^2.0.0"
   },
   "engine": "node >= 0.10",
   "devDependencies": {
-    "eslint": "^1.10.3",
-    "eslint-config-mito": "git+https://github.com/ggkovacs/eslint-config-mito.git",
-    "gulp": "^3.9.0",
-    "gulp-eslint": "^1.1.1",
     "pre-commit": "^1.1.2"
   },
   "pre-commit": [
     "test"
-  ],
-  "eslintConfig": {
-    "extends": "mito"
-  }
+  ]
 }

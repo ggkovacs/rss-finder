@@ -1,6 +1,4 @@
-node_modules
 .DS_Store
 .editorconfig
-gulpfile.js
 .travis.yml
 test

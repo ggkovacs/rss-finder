@@ -1,13 +1,9 @@
 'use strict';
 
-const rssFinder = require('../index');
+var rssFinder = require('../index');
 
-const url = 'https://fopekfoepfkoepw.ewfkewo';
-
-rssFinder(url).then((res) => {
-    console.log('---------------------------------------------');
+rssFinder('http://times.com').then(function(res) {
     console.log(res);
-    console.log('---------------------------------------------');
-}).catch((err) => {
+}).catch(function(err) {
     console.log(err);
 });
