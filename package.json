@@ -33,7 +33,9 @@
   "engine": "node >= 0.10",
   "devDependencies": {
     "ava": "^0.8.0",
+    "get-port": "^2.1.0",
     "nyc": "^5.0.1",
+    "pify": "^2.3.0",
     "pre-commit": "^1.1.2"
   },
   "pre-commit": [

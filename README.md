@@ -12,7 +12,7 @@ Run `npm install rss-finder`
 
 var rssFinder = require('rss-finder');
 
-rssFinder('http://times.com').then(function(res) {
+rssFinder('http://www.nytimes.com').then(function(res) {
     console.log(res);
 }).catch(function(err) {
     console.log(err);
@@ -21,7 +21,7 @@ rssFinder('http://times.com').then(function(res) {
 // or
 
 rssFinder({
-    url: 'http://times.com'
+    url: 'http://www.nytimes.com'
 }).then(function(res) {
     console.log(res);
 }).catch(function(err) {
@@ -35,7 +35,7 @@ rssFinder({
     site: { 
         title: 'The New York Times - Breaking News, World News & Multimedia',
         favicon: 'http://static01.nyt.com/favicon.ico',
-        url: 'http://times.com'
+        url: 'http://www.nytimes.com'
     },
     feedUrls:[{
         title: 'RSS',
