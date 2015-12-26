@@ -1,4 +1,4 @@
-# RSS Finder [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# RSS Finder [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coverage-image]][coverage-url]
 Version: **1.0.0-beta.0**
 
 ## Installation
@@ -68,5 +68,9 @@ MIT © 2015 Gergely Kovács (gg.kovacs@gmail.com)
 
 [npm-image]: https://badge.fury.io/js/rss-finder.svg
 [npm-url]: https://npmjs.org/package/rss-finder
+[travis-image]: https://travis-ci.org/ggkovacs/rss-finder.svg?branch=master
+[travis-url]: https://travis-ci.org/ggkovacs/rss-finder
 [daviddm-image]: https://david-dm.org/ggkovacs/rss-finder.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/ggkovacs/rss-finder
+[coverage-image]: https://coveralls.io/repos/ggkovacs/rss-finder/badge.svg?service=github&branch=master
+[coverage-url]: https://coveralls.io/github/ggkovacs/rss-finder?branch=master
