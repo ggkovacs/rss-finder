@@ -34,6 +34,7 @@
   "engine": "node >= 0.10",
   "devDependencies": {
     "ava": "^0.8.0",
+    "coveralls": "^2.11.6",
     "eslint": "^1.10.3",
     "eslint-config-mito": "^1.0.0-beta.2",
     "get-port": "^2.1.0",
