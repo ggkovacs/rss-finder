@@ -6,9 +6,9 @@ var getPort = require('get-port');
 var Promise = require('pinkie-promise');
 var host = exports.host = 'localhost';
 
-exports.createServer = function () {
-    return getPort().then(function (port) {
-        var s = http.createServer(function (req, resp) {
+exports.createServer = function() {
+    return getPort().then(function(port) {
+        var s = http.createServer(function(req, resp) {
             s.emit(req.url, req, resp);
         });
 
