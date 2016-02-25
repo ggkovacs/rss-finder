@@ -108,7 +108,7 @@ test('catch errors', async t => {
         });
         t.fail('Exception was not thrown');
     } catch (err) {
-        t.regexTest(/getaddrinfo ENOTFOUND/, err.message);
+        t.regex(err.message, /getaddrinfo ENOTFOUND/);
     }
 });
 
