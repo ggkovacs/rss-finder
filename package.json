@@ -35,7 +35,7 @@
   "devDependencies": {
     "ava": "^0.15.1",
     "coveralls": "^2.11.6",
-    "eslint": "^2.6.0",
+    "eslint": "^3.0.1",
     "eslint-config-mito": "^4.0.0",
     "get-port": "^2.1.0",
     "nyc": "^6.1.1",
