@@ -27,20 +27,20 @@
   "dependencies": {
     "extend": "^3.0.0",
     "feedparser": "^1.1.4",
-    "got": "^6.1.0",
-    "htmlparser2": "^3.9.0",
-    "pinkie-promise": "^2.0.0"
+    "got": "^6.3.0",
+    "htmlparser2": "^3.9.1",
+    "pinkie-promise": "^2.0.1"
   },
   "engine": "node >= 0.10",
   "devDependencies": {
-    "ava": "^0.13.0",
-    "coveralls": "^2.11.6",
-    "eslint": "^2.6.0",
-    "eslint-config-mito": "^2.0.1",
+    "ava": "^0.15.2",
+    "coveralls": "^2.11.11",
+    "eslint": "^3.0.1",
+    "eslint-config-mito": "^5.0.0",
     "get-port": "^2.1.0",
-    "nyc": "^6.1.1",
+    "nyc": "^7.0.0",
     "pify": "^2.3.0",
-    "pre-commit": "^1.1.2"
+    "pre-commit": "^1.1.3"
   },
   "pre-commit": [
     "test"
