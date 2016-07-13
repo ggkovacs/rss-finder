@@ -1,6 +1,6 @@
 {
   "name": "rss-finder",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Find rss feeds url",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "htmlparser2": "^3.9.1",
     "pinkie-promise": "^2.0.1"
   },
-  "engine": "node >= 0.10",
+  "engine": "node >= 4",
   "devDependencies": {
     "ava": "^0.15.2",
     "coveralls": "^2.11.11",

@@ -2,5 +2,5 @@ sudo: false
 language: node_js
 node_js:
   - "4"
-  - "stable"
+  - "node"
 after_success: npm run coveralls
