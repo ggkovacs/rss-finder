@@ -33,7 +33,7 @@
   },
   "engine": "node >= 4",
   "devDependencies": {
-    "ava": "^0.15.2",
+    "ava": "^0.16.0",
     "coveralls": "^2.11.11",
     "eslint": "^3.0.1",
     "eslint-config-mito": "^5.0.0",
