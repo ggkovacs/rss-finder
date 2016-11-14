@@ -1,5 +1,5 @@
 # RSS Finder [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coverage-image]][coverage-url]
-Version: **2.0.0**
+Version: **2.0.1**
 
 ## Installation
 
