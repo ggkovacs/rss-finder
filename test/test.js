@@ -10,7 +10,7 @@ test.before('setup', async t => {
 
     function event(file, contentType) {
         return (req, res) => {
-            const data = fs.readFileSync(file);
+            const data = fs.readFileSync(`${__dirname}/${file}`);
             res.statusCode = 200;
             res.setHeader('Content-Type', contentType);
             res.write(data);
@@ -18,11 +18,11 @@ test.before('setup', async t => {
         }
     }
 
-    s.on('/html', event('./data/index.html', 'text/html'));
-    s.on('/html/', event('./data/index.html', 'text/html'));
-    s.on('/rss', event('./data/rss.xml', 'text/xml'));
-    s.on('/nofavicon', event('./data/nofavicon.html', 'text/html'));
-    s.on('/nourl', event('./data/nourl.xml', 'text/xml'));
+    s.on('/html', event('data/index.html', 'text/html'));
+    s.on('/html/', event('data/index.html', 'text/html'));
+    s.on('/rss', event('data/rss.xml', 'text/xml'));
+    s.on('/nofavicon', event('data/nofavicon.html', 'text/html'));
+    s.on('/nourl', event('data/nourl.xml', 'text/xml'));
 
     s.on('/favicon.ico', (req, res) => {
         res.statusCode = 500;
