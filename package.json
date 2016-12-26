@@ -26,7 +26,7 @@
   "homepage": "https://github.com/ggkovacs/rss-finder",
   "dependencies": {
     "extend": "^3.0.0",
-    "feedparser": "^1.1.4",
+    "feedparser": "^2.0.0",
     "got": "^6.3.0",
     "htmlparser2": "^3.9.1",
     "pinkie-promise": "^2.0.1"
