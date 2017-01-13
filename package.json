@@ -36,7 +36,7 @@
     "ava": "^0.17.0",
     "coveralls": "^2.11.11",
     "eslint": "^3.0.1",
-    "eslint-config-mito": "^6.0.0",
+    "eslint-config-mito": "^7.0.0",
     "get-port": "^2.1.0",
     "nyc": "^10.0.0",
     "pify": "^2.3.0",
