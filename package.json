@@ -39,7 +39,7 @@
     "eslint-config-mito": "^7.0.2",
     "get-port": "^3.0.0",
     "nyc": "^10.0.0",
-    "pify": "^2.3.0",
+    "pify": "^3.0.0",
     "pre-commit": "^1.2.0"
   },
   "pre-commit": [
