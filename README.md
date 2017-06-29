@@ -1,5 +1,5 @@
 # RSS Finder [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coverage-image]][coverage-url]
-Version: **2.0.3**
+Version: **2.0.4**
 
 ## Installation
 
@@ -32,7 +32,7 @@ rssFinder({
 ### Response
 ```js
 {
-    site: { 
+    site: {
         title: 'The New York Times - Breaking News, World News & Multimedia',
         favicon: 'http://static01.nyt.com/favicon.ico',
         url: 'http://www.nytimes.com'
