@@ -25,22 +25,22 @@
   },
   "homepage": "https://github.com/ggkovacs/rss-finder",
   "dependencies": {
-    "extend": "^3.0.0",
-    "feedparser": "^2.0.0",
-    "got": "^7.0.0",
-    "htmlparser2": "^3.9.1",
+    "extend": "^3.0.1",
+    "feedparser": "^2.2.9",
+    "got": "^8.3.0",
+    "htmlparser2": "^3.9.2",
     "pinkie-promise": "^2.0.1"
   },
   "engine": "node >= 4",
   "devDependencies": {
-    "ava": "^0.19.1",
-    "coveralls": "^2.11.11",
-    "eslint": "^3.0.1",
-    "eslint-config-mito": "^7.0.2",
-    "get-port": "^3.0.0",
-    "nyc": "^10.0.0",
+    "ava": "^0.25.0",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.18.2",
+    "eslint-config-mito": "^8.0.0",
+    "get-port": "^3.2.0",
+    "nyc": "^11.6.0",
     "pify": "^3.0.0",
-    "pre-commit": "^1.2.0"
+    "pre-commit": "^1.2.2"
   },
   "pre-commit": [
     "test"
