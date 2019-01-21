@@ -1,6 +1,6 @@
 {
   "name": "rss-finder",
-  "version": "2.0.6",
+  "version": "2.1.0",
   "description": "Find rss feeds url",
   "main": "index.js",
   "scripts": {
@@ -27,25 +27,19 @@
   "dependencies": {
     "extend": "^3.0.2",
     "feedparser": "^2.2.9",
-    "got": "^8.3.2",
-    "htmlparser2": "^3.9.2",
+    "got": "^9.6.0",
+    "htmlparser2": "^3.10.0",
     "pinkie-promise": "^2.0.1"
   },
   "engine": "node >= 4",
   "devDependencies": {
-    "ava": "^0.25.0",
+    "ava": "^1.1.0",
     "coveralls": "^3.0.2",
-    "eslint": "^5.2.0",
+    "eslint": "^5.12.1",
     "eslint-config-mito": "^8.0.0",
-    "get-port": "^4.0.0",
-    "nyc": "^12.0.2",
-    "pify": "^3.0.0",
-    "pre-commit": "^1.2.2"
-  },
-  "pre-commit": [
-    "test"
-  ],
-  "eslintConfig": {
-    "extends": "mito/legacy"
+    "get-port": "^4.1.0",
+    "nyc": "^13.1.0",
+    "pify": "^4.0.1",
+    "husky": "^1.3.1"
   }
 }

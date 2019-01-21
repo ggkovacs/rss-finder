@@ -1,6 +1,9 @@
-.DS_Store
-.editorconfig
-.travis.yml
-test
 .nyc_output
+demo
+test
+.editorconfig
+.eslintignore
+.eslintrc
+.gitignore
+.travis.yml
 npm-debug.log
