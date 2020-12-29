@@ -27,8 +27,8 @@
   "dependencies": {
     "extend": "^3.0.2",
     "feedparser": "^2.2.9",
-    "got": "^10.0.2",
-    "htmlparser2": "^4.0.0",
+    "got": "^11.8.1",
+    "htmlparser2": "^6.0.0",
     "pinkie-promise": "^2.0.1"
   },
   "engine": "node >= 4",
