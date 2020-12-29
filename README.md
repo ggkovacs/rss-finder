@@ -1,5 +1,5 @@
 # RSS Finder [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coverage-image]][coverage-url]
-Version: **2.1.4**
+Version: **2.1.5**
 
 ## Installation
 
@@ -64,7 +64,7 @@ This object is passed to [`feedparser` options](https://github.com/danmactough/n
 
 
 # License
-MIT © 2019 Gergely Kovács (gg.kovacs@gmail.com)
+MIT © 2020 Gergely Kovács (gg.kovacs@gmail.com)
 
 [npm-image]: https://badge.fury.io/js/rss-finder.svg
 [npm-url]: https://npmjs.org/package/rss-finder
