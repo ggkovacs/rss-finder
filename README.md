@@ -68,8 +68,8 @@ MIT © 2020 Gergely Kovács (gg.kovacs@gmail.com)
 
 [npm-image]: https://badge.fury.io/js/rss-finder.svg
 [npm-url]: https://npmjs.org/package/rss-finder
-[travis-image]: https://travis-ci.org/ggkovacs/rss-finder.svg?branch=master
-[travis-url]: https://travis-ci.org/ggkovacs/rss-finder
+[travis-image]: https://travis-ci.com/ggkovacs/rss-finder.svg?branch=master
+[travis-url]: https://travis-ci.com/ggkovacs/rss-finder
 [daviddm-image]: https://david-dm.org/ggkovacs/rss-finder.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/ggkovacs/rss-finder
 [coverage-image]: https://coveralls.io/repos/ggkovacs/rss-finder/badge.svg?service=github&branch=master
