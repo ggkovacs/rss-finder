@@ -1,4 +1,6 @@
-# RSS Finder [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status][coverage-image]][coverage-url]
+# RSS Finder 
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Libraries.io dependency status for latest release][librariesio-img]][librariesio-url] [![Coverage Status][coverage-image]][coverage-url]
+
 Version: **2.1.5**
 
 ## Installation
@@ -74,3 +76,5 @@ MIT © 2021 Gergely Kovács (gg.kovacs@gmail.com)
 [daviddm-url]: https://david-dm.org/ggkovacs/rss-finder
 [coverage-image]: https://coveralls.io/repos/ggkovacs/rss-finder/badge.svg?service=github&branch=master
 [coverage-url]: https://coveralls.io/github/ggkovacs/rss-finder?branch=master
+[librariesio-img]: https://img.shields.io/librariesio/release/npm/rss-finder
+[librariesio-url]: https://libraries.io/npm/rss-finder
