@@ -1,5 +1,5 @@
 {
-  "name": "rss-finder",
+  "name": "robust-rss-finder",
   "version": "2.1.5",
   "description": "Find rss feeds url",
   "main": "index.js",
@@ -18,12 +18,12 @@
     "atom",
     "rdf"
   ],
-  "author": "Gergely Kovács <gg.kovacs@gmail.com>",
+  "author": "Hasan Aga <careerforma@gmail>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ggkovacs/rss-finder/issues"
+    "url": "https://github.com/Hasan-aga/rss-finder/issues"
   },
-  "homepage": "https://github.com/ggkovacs/rss-finder",
+  "homepage": "https://github.com/Hasan-aga/rss-finder",
   "dependencies": {
     "extend": "^3.0.2",
     "feedparser": "^2.2.9",
